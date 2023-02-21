@@ -10,7 +10,7 @@ jobs:
       id: hello
       uses: ./
       with:
-        myInput: 'Sydney'
+        myInput: 'Chad'
     - name: output the memory
       run: |
         echo ${{ steps.hello.outputs.memory }}
